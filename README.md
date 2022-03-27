@@ -20,9 +20,9 @@ Show camera info: `camctrl --uri URI --creds CRED_FILE info`
 ```json
 [
   {
-    user: "USER_NAME",
-    pass: "PASSWORD",
-    serial: ["CAMERA_SERIAL"] // Optional, match only these cameras.
+    "user": "USER_NAME",
+    "pass": "PASSWORD",
+    "serial": ["CAMERA_SERIAL"] // Optional, match only these cameras.
   }
 ]
 ```
@@ -47,5 +47,4 @@ Limitations
 
 - This tool currently only has IPv4 support
 - Windows is not supported
-- Camera credential serial matching is not supported
-
+- Camera credential serial matching is not yet implemented
