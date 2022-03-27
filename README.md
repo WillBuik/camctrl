@@ -2,7 +2,7 @@ CamCtrl
 -------
 
 Basic ONVIF camera control CLI based on the
-[onvif-rs project](https://github.com/lumeohq/onvif-rs)
+[ONVIF-rs](https://github.com/lumeohq/onvif-rs) project.
 
 Usage
 =====
